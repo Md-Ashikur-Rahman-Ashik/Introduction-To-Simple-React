@@ -7,8 +7,14 @@ function App() {
   return (
     <>
       <h1>Vite + React</h1>
+      <Person></Person>
     </>
   );
+}
+
+function Person(){
+  const age = 25;
+  return <h3>I am a person with age: {age}</h3>
 }
 
 export default App;
