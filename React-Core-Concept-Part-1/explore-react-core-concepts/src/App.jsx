@@ -5,10 +5,34 @@ import "./App.css";
 import Todo from "./Todo";
 import Actor from "./Actor";
 import Singer from "./Singer";
+import BookStore from "./BookStore";
 
 function App() {
-
   const actors = ["Sakib", "Shoriful Raj", "Jasim", "Rubel"];
+
+  const books = [
+    {
+      id: 1,
+      name: "Physics",
+      price: 100,
+    },
+    {
+      id: 2,
+      name: "Math",
+      price: 120,
+    },
+    {
+      id: 3,
+      name: "Chemistry",
+      price: 130,
+    },
+    {
+      id: 4,
+      name: "Biology",
+      price: 150,
+    },
+  ]
+
   const singers = [
     {
       id: 1,
@@ -30,20 +54,21 @@ function App() {
       name: "Pritom",
       age: 28,
     },
-  ]
+  ];
 
   return (
     <>
       <h3>Vite + React</h3>
+      <BookStore books={books}></BookStore>
 
-      {
-        singers.map(singer => <Singer singer={singer}></Singer>)
-      }
+      {singers.map((singer) => (
+        <Singer singer={singer}></Singer>
+      ))}
 
       <Actor name={"Bappa Raz"}></Actor>
-      {
-        actors.map(actor => <Actor name={actor}>Name:</Actor>)
-      }
+      {actors.map((actor) => (
+        <Actor name={actor}>Name:</Actor>
+      ))}
       {/* <Todo task="Learn React" isDone={true}></Todo>
       <Todo task="Explore core concepts" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={true}></Todo> */}
