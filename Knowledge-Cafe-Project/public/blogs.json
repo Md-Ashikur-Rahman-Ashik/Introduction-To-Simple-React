@@ -1,0 +1,52 @@
+[
+  {
+    "id": 123456,
+    "cover_img": "https://i.ibb.co/B6F3yQV/blog-Cover.jpg",
+    "title": "Echoes of Eternity",
+    "author": "Emily Blake",
+    "author_img": "https://i.ibb.co/xKkm8fS/author-Image.jpg",
+    "posted_date": "March 15, 2024",
+    "reading_time": 12,
+    "hashtags": ["#Fantasy", "#Adventure", "#TimeTravel"]
+  },
+  {
+    "id": 789012,
+    "cover_img": "https://i.ibb.co/B6F3yQV/blog-Cover.jpg",
+    "title": "Whispers in the Shadows",
+    "author": "Jacob Smith",
+    "author_img": "https://i.ibb.co/xKkm8fS/author-Image.jpg",
+    "posted_date": "March 14, 2024",
+    "reading_time": 9,
+    "hashtags": ["#Thriller", "#Mystery", "#Suspense"]
+  },
+  {
+    "id": 345678,
+    "cover_img": "https://i.ibb.co/B6F3yQV/blog-Cover.jpg",
+    "title": "Serenade of Serenity",
+    "author": "Olivia Young",
+    "author_img": "https://i.ibb.co/xKkm8fS/author-Image.jpg",
+    "posted_date": "March 13, 2024",
+    "reading_time": 15,
+    "hashtags": ["#Romance", "#Contemporary", "#LoveStory"]
+  },
+  {
+    "id": 901234,
+    "cover_img": "https://i.ibb.co/B6F3yQV/blog-Cover.jpg",
+    "title": "Echoes of the Unknown",
+    "author": "Benjamin Adams",
+    "author_img": "https://i.ibb.co/xKkm8fS/author-Image.jpg",
+    "posted_date": "March 12, 2024",
+    "reading_time": 18,
+    "hashtags": ["#SciFi", "#Mystery", "#Exploration"]
+  },
+  {
+    "id": 567890,
+    "cover_img": "https://i.ibb.co/B6F3yQV/blog-Cover.jpg",
+    "title": "Whispers of the Wind",
+    "author": "Sophia Martinez",
+    "author_img": "https://i.ibb.co/xKkm8fS/author-Image.jpg",
+    "posted_date": "March 11, 2024",
+    "reading_time": 10,
+    "hashtags": ["#Fantasy", "#Adventure", "#Magic"]
+  }
+]
